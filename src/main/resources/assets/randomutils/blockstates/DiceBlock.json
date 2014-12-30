@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "stage=0": { "model": "randomutils:DiceBlockStage1" },
+        "stage=1": { "model": "randomutils:DiceBlockStage2" },
+        "stage=2": { "model": "randomutils:DiceBlockStage3" },
+        "stage=3": { "model": "randomutils:DiceBlockStage4" },
+        "stage=4": { "model": "randomutils:DiceBlockStage5" },
+        "stage=5": { "model": "randomutils:DiceBlockStage6" },
+    }
+}
