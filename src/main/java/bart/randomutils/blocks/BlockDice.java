@@ -53,7 +53,7 @@ public class BlockDice extends Block
     {
         Random random = new Random();
         int randomNumber = random.nextInt(6);
-        System.out.println(randomNumber);
+        System.out.println(randomNumber  + 1);
         IBlockState diceState = getStateFromMeta(randomNumber);
         world.setBlockState(pos, diceState, 1);
     }
@@ -64,7 +64,7 @@ public class BlockDice extends Block
         if (!world.isRemote) {
             Random random = new Random();
             int randomNumber = random.nextInt(6);
-            System.out.println(randomNumber);
+            System.out.println(randomNumber + 1);
             IBlockState diceState = getStateFromMeta(randomNumber);
             world.setBlockState(pos, diceState, 1);
             return true;

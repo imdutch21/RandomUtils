@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "randomutils:blocks/dice/dice_0",
+        "down": "randomutils:blocks/dice/dice_1",
+        "up": "randomutils:blocks/dice/dice_6",
+        "north": "randomutils:blocks/dice/dice_5",
+        "east": "randomutils:blocks/dice/dice_4",
+        "south": "randomutils:blocks/dice/dice_2_rot",
+        "west": "randomutils:blocks/dice/dice_3"
+    }
+}
