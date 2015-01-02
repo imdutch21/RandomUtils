@@ -2,11 +2,11 @@
     "parent": "block/cube",
     "textures": {
         "particle": "randomutils:blocks/dice/dice_0",
-        "down": "randomutils:blocks/dice/dice_1",
-        "up": "randomutils:blocks/dice/dice_6",
+        "down": "randomutils:blocks/dice/dice_6",
+        "up": "randomutils:blocks/dice/dice_1",
         "north": "randomutils:blocks/dice/dice_5",
-        "east": "randomutils:blocks/dice/dice_4",
+        "east": "randomutils:blocks/dice/dice_3",
         "south": "randomutils:blocks/dice/dice_2_rot",
-        "west": "randomutils:blocks/dice/dice_3"
+        "west": "randomutils:blocks/dice/dice_4"
     }
 }

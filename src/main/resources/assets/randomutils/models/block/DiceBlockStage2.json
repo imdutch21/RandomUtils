@@ -1,12 +1,12 @@
 {
-        "parent": "block/cube",
-        "textures": {
-            "particle": "randomutils:blocks/dice/dice_0",
-            "down": "randomutils:blocks/dice/dice_5",
-            "up": "randomutils:blocks/dice/dice_2_rot",
-            "north": "randomutils:blocks/dice/dice_3",
-            "east": "randomutils:blocks/dice/dice_1",
-            "south": "randomutils:blocks/dice/dice_4",
-            "west": "randomutils:blocks/dice/dice_6_rot"
-        }
+    "parent": "block/cube",
+    "textures": {
+        "particle": "randomutils:blocks/dice/dice_0",
+         "down": "randomutils:blocks/dice/dice_2_rot",
+         "up": "randomutils:blocks/dice/dice_5",
+         "north": "randomutils:blocks/dice/dice_3",
+         "east": "randomutils:blocks/dice/dice_6_rot",
+         "south": "randomutils:blocks/dice/dice_4",
+         "west": "randomutils:blocks/dice/dice_1"
+     }
 }

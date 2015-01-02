@@ -23,12 +23,19 @@ public class ClientProxy extends CommonProxy {
 
     private void registerBlockModels()
     {
+        RenderItem renderItem = FMLClientHandler.instance().getClient().getRenderItem();
+        ItemModelMesher itemModelMesher = renderItem.getItemModelMesher();
+
+
         ModelBakery.addVariantName(Item.getItemFromBlock(ModBlocks.blockDice), "randomutils:DiceBlock");
+
+        itemModelMesher.register(Item.getItemFromBlock(ModBlocks.blockDice), 0, new ModelResourceLocation("randomutils:DiceBlock", "inventory"));
     }
+
     private void registerItemModels()
     {
         RenderItem renderItem = FMLClientHandler.instance().getClient().getRenderItem();
         ItemModelMesher itemModelMesher = renderItem.getItemModelMesher();
-        itemModelMesher.register(Item.getItemFromBlock(ModBlocks.blockDice), 0, new ModelResourceLocation("randomutils:DiceBlock", "inventory"));
+
     }
 }
