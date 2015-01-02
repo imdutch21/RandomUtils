@@ -2,6 +2,7 @@ package bart.randomutils;
 
 import bart.randomutils.blocks.ModBlocks;
 import bart.randomutils.core.proxy.CommonProxy;
+import bart.randomutils.items.ModItems;
 import bart.randomutils.lib.RandomUtilsTab;
 import bart.randomutils.lib.References;
 
@@ -31,7 +32,7 @@ public class RandomUtilsMain {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ModBlocks.init();
-
+        ModItems.init();
     }
     @EventHandler
     public void init(FMLInitializationEvent event) {

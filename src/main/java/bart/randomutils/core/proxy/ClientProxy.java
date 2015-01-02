@@ -1,6 +1,8 @@
 package bart.randomutils.core.proxy;
 
 import bart.randomutils.blocks.ModBlocks;
+import bart.randomutils.items.ModItems;
+import com.sun.java.swing.plaf.motif.MotifTextUI;
 import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.resources.model.ModelBakery;
@@ -36,6 +38,8 @@ public class ClientProxy extends CommonProxy {
     {
         RenderItem renderItem = FMLClientHandler.instance().getClient().getRenderItem();
         ItemModelMesher itemModelMesher = renderItem.getItemModelMesher();
+
+        itemModelMesher.register(ModItems.testItem, 0, new ModelResourceLocation("randomutils:TestItem", "inventory"));
 
     }
 }
